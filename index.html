@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bhaskaracharya College Of Applied Sciences</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: white;
+            color: black;
+            animation: fadeIn 1.5s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        header {
+            background-color: navy;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header img {
+            width: 80px;
+            height: 80px;
+        }
+
+        section.menu {
+            background-color: darkblue;
+            text-align: center;
+            padding: 12px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        section.menu a {
+            color: white;
+            margin: 0 18px;
+            text-decoration: none;
+        }
+        section.menu a:hover {
+            color: yellow;
+        }
+
+        section.banner {
+            position: relative;
+            height: 300px;
+            overflow: hidden;
+        }
+
+        section.banner figure {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            animation: slideShow 15s infinite;
+            margin: 0;
+        }
+
+        section.banner img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        section.banner figure:nth-child(1) { animation-delay: 0s; }
+        section.banner figure:nth-child(2) { animation-delay: 5s; }
+        section.banner figure:nth-child(3) { animation-delay: 10s; }
+
+        @keyframes slideShow {
+            0%, 15% { opacity: 1; }
+            30%, 100% { opacity: 0; }
+        }
+
+        h2.banner-text {
+            position: absolute;
+            top: 50%;
+            left: -100%;
+            transform: translateY(-50%);
+            padding: 10px 20px;
+            background-color: black;
+            color: white;
+            opacity: 0.7;
+            animation: moveText 10s infinite linear;
+            font-size: 24px;
+            border-radius: 6px;
+        }
+
+        @keyframes moveText {
+            0% { left: -100%; }
+            50% { left: 40%; }
+            100% { left: 120%; }
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: whitesmoke;
+            border-left: 6px solid blue;
+            box-shadow: 0 0 10px grey;
+        }
+
+        section h2 {
+            margin-top: 0;
+            color: navy;
+            font-size: 26px;
+        }
+
+        /* Links Section */
+        section.links {
+            background-color: white;
+            border-left: 6px solid green;
+            box-shadow: 0 0 12px grey;
+            text-align: center;
+        }
+
+        section.links a {
+            display: block;
+            margin: 10px auto;
+            font-size: 20px;
+            font-weight: bold;
+            text-decoration: none;
+            color: blue;
+            padding: 10px;
+        }
+        section.links a:hover {
+            color: darkred;
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            background-color: navy;
+            color: white;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <img src="https://tse1.mm.bing.net/th/id/OIP.-aC4_FKbJ9BdPTzCBb1bEAAAAA?w=474&h=470&rs=1&pid=ImgDetMain&o=7&rm=3" alt="College Logo">
+    <h1>Bhaskaracharya College Of Applied Sciences</h1>
+ University of Delhi<br>
+    दिल्ली विश्वविद्यालय<br><br>
+
+    Accredited “A++” Grade by NAAC • ‘Star College Status’ by DBT<br>
+    2024 NIRF Ranking - 27
+</header>
+
+
+    <p>Affiliated with University of Delhi</p>
+</header>
+
+<section class="menu">
+    <a href="#about">About</a>
+    <a href="#courses">Courses</a>
+    <a href="#admission">Admission</a>
+    <a href="#links">Important Links</a>
+    <a href="#contact">Contact</a>
+    <a href="#Facilities">Facilities</a>
+    <a href="#Achievements">Achievements</a>
+    <a href="#Publications">Publications</a>
+    <a href="#Notices & Announcements">Notices & Announcements</a>
+
+
+</section>
+
+<section class="banner">
+    <figure><img src="file:///C:/Users/Admin/Pictures/photo2.jpg"></figure>
+    <figure><img src="file:///C:/Users/Admin/Pictures/photo4.jpg"></figure>
+    <figure><img src="file:///C:/Users/Admin/Pictures/photo6.jpg"></figure>
+
+    <h2 class="banner-text">Empowering Future Scientists and Innovators</h2>
+</section>
+
+<main>
+
+<section id="about">
+    <h2>About BCAS</h2>
+    <p>Bhaskaracharya College of Applied Sciences (BCAS), established in 1995, is one of the finest institutions under the University of Delhi.</p>
+</section>
+
+<section id="courses">
+    <h2>Courses Offered</h2>
+    <ul>
+        <li>B.Sc. (Hons) Biomedical Science</li>
+        <li>B.Sc. (Hons) Computer Science</li>
+        <li>B.Sc. (Hons) Instrumentation</li>
+        <li>B.Sc. (Hons) Electronics</li>
+        <li>B.Sc. (Hons) Physics</li>
+        <li>B.Sc. (Hons) Zoology</li>
+        <li>B.Sc. (Hons) Botany</li>
+        <li>B.Sc. (Hons) Chemistry</li>
+        <li>B.Sc. (Hons) Food Technology</li>
+        <li>B.Sc. (Hons) Polymer Science</li>
+        <li>B.Sc. (Hons) Microbiology</li>
+    </ul>
+</section>
+
+<section id="admission">
+    <h2>Admission</h2>
+    <p>Admissions are conducted as per the University of Delhi’s Common University Entrance Test (CUET) and merit guidelines. For the latest updates and to apply, visit the <a href="https://admission.uod.ac.in/" target="_blank">DU Admission Portal</a>.</p>
+        </section>
+<section>
+
+    <h2>Facilities</h2>
+    <ul>
+        <li>Well-Equipped Laboratories</li>
+        <li>Smart Classrooms</li>
+        <li>Central Library</li>
+        <li>Research & Innovation Centres</li>
+        <li>Sports Complex</li>
+    </ul>
+</section>
+
+<section id="Achievements">
+    <h2>Achievements</h2>
+        <li>Ranked 27 in NIRF 2024</li>
+        <li>DBT Star College Status</li>
+        <li>A++ Grade Accreditation by NAAC</li>
+        <li>National Level Research Grants</li>
+        </section>
+
+<section id="Publications">
+    <h2>Publications</h2>
+        <li>Recent Research Publications</li>
+        <li>Faculty Publications</li>
+        <li>Student Research Contributions</li>
+        <li>Annual College Journal</li>
+        </section>
+
+<section id="Notices & Announcements">
+    <h2>Notices & Announcements</h2>
+        <li>Latest Academic Notices</li>
+        <li>Examination Updates</li>
+        <li>Admission Announcements</li>
+        <li>Holiday & Event Notices</li>
+        </section>
+
+
+
+
+<!-- ⭐ NEW IMPORTANT LINKS SECTION -->
+<section id="links" class="links">
+    <h2>Important Links</h2>
+
+    <a href="https://admission.uod.ac.in/"/"For more updates about college and admission/" target="_blank">DU Admission Portal</a>
+    <a href="http://bcas.du.ac.in" target="_blank">BCAS Official Website</a>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Address:</strong> Sector-2, Dwarka, New Delhi - 110075</p>
+    <p><strong>Phone:</strong> +91-11-25087597</p>
+    <p><strong>Email:</strong> principal@bcas.du.ac.in</p>
+</section>
+
+</main>
+
+<footer>
+    © 2025 Bhaskaracharya College Of Applied Sciences. All rights reserved.
+</footer>
+
+</body>
+</html>
